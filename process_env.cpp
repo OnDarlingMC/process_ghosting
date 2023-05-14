@@ -117,7 +117,7 @@ bool setup_process_parameters(HANDLE hProcess, PROCESS_BASIC_INFORMATION &pi, LP
     RtlInitUnicodeString(&uDllDir, dllDir);
     //---
     UNICODE_STRING uWindowName = { 0 };
-    wchar_t *windowName = L"Process Ghosting test!";
+    wchar_t *windowName = L" ";
     RtlInitUnicodeString(&uWindowName, windowName);
 
     LPVOID environment;
